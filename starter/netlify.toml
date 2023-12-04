@@ -2,3 +2,7 @@
   base = "/"
   command = "npm run build"
   publish = "dist/"
+  skip_functions = true
+  skip_cache = true
+  [build.environment]
+  NODE_VERSION = "14"
