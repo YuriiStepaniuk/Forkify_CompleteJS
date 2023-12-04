@@ -5,13 +5,14 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "./node_modules/.bin/parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Yurii Stepaniuk",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
-    "parcel": "^2.10.3"
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
     "core-js": "^3.33.3",
