@@ -1,4 +1,0 @@
-[build]
-  base = "/"
-   command = "npx -p parcel-bundler parcel build index.html --dist-dir ./dist"
-  publish = "dist/"
