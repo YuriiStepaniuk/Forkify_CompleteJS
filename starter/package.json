@@ -11,7 +11,8 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
     "@parcel/transformer-svg": "^2.10.3",
-    "parcel": "^2.10.3"
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "core-js": "^3.33.3",
