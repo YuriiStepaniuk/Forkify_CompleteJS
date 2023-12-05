@@ -4,6 +4,7 @@
   "description": "Recipe application",
   "default": "index.html",
   "scripts": {
+    "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Yurii Stepaniuk",
@@ -11,8 +12,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
     "@parcel/transformer-svg": "^2.10.3",
-    "parcel": "^2.10.3",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.10.3"
   },
   "dependencies": {
     "core-js": "^3.33.3",
