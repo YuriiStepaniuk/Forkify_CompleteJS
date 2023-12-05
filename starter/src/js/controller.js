@@ -8,7 +8,7 @@ import addRecipeView from './Views/addRecipeView';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import searchView from './Views/searchView';
+
 import { MODAL_CLOSE_SEC } from './config';
 
 const recipeContainer = document.querySelector('.recipe');
