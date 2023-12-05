@@ -5,7 +5,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html -d ./dist"
   },
   "author": "Yurii Stepaniuk",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "parcel": "^2.10.3"
   },
   "dependencies": {
-    "core-js": "^3.33.3",
+    "core-js": "^3.34.0",
     "fractional": "^1.0.0",
     "fractions": "^1.0.2",
     "img": "^3.0.3",
